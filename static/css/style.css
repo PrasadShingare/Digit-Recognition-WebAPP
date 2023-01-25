@@ -1,0 +1,41 @@
+h1{
+    margin-left:-400px ;
+    text-align: right;
+    width: 1000px;
+}
+.common {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.boxitem {
+    margin: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#inputimg {
+    vertical-align: top;
+    border: solid 1px black;
+}
+
+#clearbtn {
+    width: 100%;
+    font-size: medium;
+    display: block;
+}
+
+#pred {
+    width: 196px;
+    height: 196px;
+    line-height: 196px;
+    font-size: 160px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: Century;
+}
