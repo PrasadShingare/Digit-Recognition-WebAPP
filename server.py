@@ -3,28 +3,19 @@ import json
 import numpy as np
 import torch
 from flask import Flask, render_template, request
-from flask_debugtoolbar import DebugToolbarExtension
 from PIL import Image, ImageChops, ImageOps
 from torchvision import transforms
 
 from model import Model
 from train import SAVE_MODEL_PATH
 
-import logging
 
 app = Flask(__name__)
 predict = None
-app.debug = True
-app.secret_key = 'development key'
-
-toolbar = DebugToolbarExtension(app)
-
 
 @app.route("/")
 def index():
     return render_template("index (2).html")
-    logging.warning("See this message in Flask Debug Toolbar!")
-    return "<html><body></body></html>"
 
 @app.route("/DigitRecognition", methods=["POST"])
 def predict_digit():
