@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.3.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.3.0, mobirise.com">
@@ -10,7 +9,7 @@
   <meta name="description" content="">
   
   
-  <title>Home</title>
+  <title>Digit Recognition CNN | Prasad Shingare Portfolio</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
   <link rel="stylesheet" href="{{ url_for('static',filename='web/assets/mobirise-icons/mobirise-icons.css')}}">
   <link rel="stylesheet" href="{{ url_for('static',filename='tether/tether.min.css')}}">
@@ -39,7 +38,7 @@
                         <img src="{{ url_for('static',filename='images/orange-circle-100-.svg-removebg-preview-96x96.png') }}" alt="Mobirise" style="height: 3.8rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobirise.com">SHINGARE</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://sea-lion-app-2-ezcmo.ondigitalocean.app/">SHINGARE</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -50,8 +49,8 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobirise.com">Home</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobirise.com">Projects</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="https://sea-lion-app-2-ezcmo.ondigitalocean.app/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="https://sea-lion-app-2-ezcmo.ondigitalocean.app/project">Projects</a></li></ul>
                 
                 
             </div>
@@ -100,10 +99,12 @@
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Article Title with Solid Background</strong>
+                    <strong>CNN Digit Recognition Webapp Using Pytorch and Flask</strong>
                 </h3>
                 <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">
-                    You can arrange your articles with the Mobirise website design software.
+                    This is a RealTime-DigitRecognition application which can predict output corresponding to handwritten images. I used SVC(support vector classifier) and sequential model of Keras for creating this predictive model. I trained SVC for 8X8 MNIST dataset, but the accuracy of this model is not good when I run this model on my handwritten images(600X600). It is due to resizing images from 600X600 to 8X8.It is important to get good results so I created a sequential model in keras and traied it on 28X28 MNIST dataset. Now it gives very good result on handwritten digits.
+
+The interface is created by using Pygame. The image preprocessing is the most important in this project which I have done by using Scipy and OpenCV.
                 </h4>
                 
             </div>
