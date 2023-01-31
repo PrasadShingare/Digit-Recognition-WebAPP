@@ -137,7 +137,7 @@ function onRecognition() {
         })
         .then(
             (data)=>showResult(JSON.parse(data)),
-            ()=>alert("error")
+            ()=>alert("prasd")
         )    
     })
 
